@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F122E2A52A09D2DC00F442D3 /* TelaHomeCliente.swift in Sources */ = {isa = PBXBuildFile; fileRef = F122E2A42A09D2DC00F442D3 /* TelaHomeCliente.swift */; };
+		F16668072A0AFC0A00D040F0 /* TelaNotificacoes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16668062A0AFC0A00D040F0 /* TelaNotificacoes.swift */; };
+		F16668092A0B110100D040F0 /* ApiCallNotificacoes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16668082A0B110100D040F0 /* ApiCallNotificacoes.swift */; };
+		F1ADB0632A0DB1FC00C711DD /* FinalizarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ADB0622A0DB1FC00C711DD /* FinalizarView.swift */; };
+		F1ADB0652A0DB2FA00C711DD /* PartidaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1ADB0642A0DB2FA00C711DD /* PartidaView.swift */; };
+		F33D361B2A09B9650044797A /* ApiCallPassageiro.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33D361A2A09B9650044797A /* ApiCallPassageiro.swift */; };
+		F33D361D2A09B9800044797A /* ApiCallGrupo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33D361C2A09B9800044797A /* ApiCallGrupo.swift */; };
+		F33D361F2A09BA600044797A /* GerenciamentoClientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33D361E2A09BA600044797A /* GerenciamentoClientes.swift */; };
+		F33D36212A09C2C80044797A /* GerenciamentoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33D36202A09C2C80044797A /* GerenciamentoView.swift */; };
+		F3F4C1C129FB460300955BB4 /* TransLocApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F4C1C029FB460300955BB4 /* TransLocApp.swift */; };
+		F3F4C1C329FB460300955BB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F4C1C229FB460300955BB4 /* ContentView.swift */; };
+		F3F4C1C529FB460300955BB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3F4C1C429FB460300955BB4 /* Assets.xcassets */; };
+		F3F4C1C829FB460300955BB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3F4C1C729FB460300955BB4 /* Preview Assets.xcassets */; };
+		F3F4C1CF29FB462600955BB4 /* ApiCallUsuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F4C1CE29FB462600955BB4 /* ApiCallUsuario.swift */; };
+		F3F4C1D129FB467A00955BB4 /* TelaHomeMotorista.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F4C1D029FB467A00955BB4 /* TelaHomeMotorista.swift */; };
+		F3F4C1D329FB46D800955BB4 /* TelaCriarConta.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F4C1D229FB46D800955BB4 /* TelaCriarConta.swift */; };
+		F3FCF7AD29FD871000870C0A /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FCF7AC29FD871000870C0A /* SwiftUIView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F122E2A42A09D2DC00F442D3 /* TelaHomeCliente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaHomeCliente.swift; sourceTree = "<group>"; };
+		F16668062A0AFC0A00D040F0 /* TelaNotificacoes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaNotificacoes.swift; sourceTree = "<group>"; };
+		F16668082A0B110100D040F0 /* ApiCallNotificacoes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCallNotificacoes.swift; sourceTree = "<group>"; };
+		F1ADB0622A0DB1FC00C711DD /* FinalizarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalizarView.swift; sourceTree = "<group>"; };
+		F1ADB0642A0DB2FA00C711DD /* PartidaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartidaView.swift; sourceTree = "<group>"; };
+		F33D361A2A09B9650044797A /* ApiCallPassageiro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCallPassageiro.swift; sourceTree = "<group>"; };
+		F33D361C2A09B9800044797A /* ApiCallGrupo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCallGrupo.swift; sourceTree = "<group>"; };
+		F33D361E2A09BA600044797A /* GerenciamentoClientes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GerenciamentoClientes.swift; sourceTree = "<group>"; };
+		F33D36202A09C2C80044797A /* GerenciamentoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GerenciamentoView.swift; sourceTree = "<group>"; };
+		F3F4C1BD29FB460300955BB4 /* TransLoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransLoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F4C1C029FB460300955BB4 /* TransLocApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransLocApp.swift; sourceTree = "<group>"; };
+		F3F4C1C229FB460300955BB4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F3F4C1C429FB460300955BB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3F4C1C729FB460300955BB4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F3F4C1CE29FB462600955BB4 /* ApiCallUsuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCallUsuario.swift; sourceTree = "<group>"; };
+		F3F4C1D029FB467A00955BB4 /* TelaHomeMotorista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaHomeMotorista.swift; sourceTree = "<group>"; };
+		F3F4C1D229FB46D800955BB4 /* TelaCriarConta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaCriarConta.swift; sourceTree = "<group>"; };
+		F3FCF7AC29FD871000870C0A /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3F4C1BA29FB460300955BB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3F4C1B429FB460300955BB4 = {
+			isa = PBXGroup;
+			children = (
+				F3F4C1BF29FB460300955BB4 /* TransLoc */,
+				F3F4C1BE29FB460300955BB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3F4C1BE29FB460300955BB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3F4C1BD29FB460300955BB4 /* TransLoc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3F4C1BF29FB460300955BB4 /* TransLoc */ = {
+			isa = PBXGroup;
+			children = (
+				F3F4C1C029FB460300955BB4 /* TransLocApp.swift */,
+				F3F4C1C229FB460300955BB4 /* ContentView.swift */,
+				F3F4C1C429FB460300955BB4 /* Assets.xcassets */,
+				F3F4C1CE29FB462600955BB4 /* ApiCallUsuario.swift */,
+				F16668082A0B110100D040F0 /* ApiCallNotificacoes.swift */,
+				F33D361A2A09B9650044797A /* ApiCallPassageiro.swift */,
+				F33D361C2A09B9800044797A /* ApiCallGrupo.swift */,
+				F3F4C1D029FB467A00955BB4 /* TelaHomeMotorista.swift */,
+				F122E2A42A09D2DC00F442D3 /* TelaHomeCliente.swift */,
+				F3F4C1D229FB46D800955BB4 /* TelaCriarConta.swift */,
+				F16668062A0AFC0A00D040F0 /* TelaNotificacoes.swift */,
+				F33D361E2A09BA600044797A /* GerenciamentoClientes.swift */,
+				F33D36202A09C2C80044797A /* GerenciamentoView.swift */,
+				F1ADB0642A0DB2FA00C711DD /* PartidaView.swift */,
+				F1ADB0622A0DB1FC00C711DD /* FinalizarView.swift */,
+				F3FCF7AC29FD871000870C0A /* SwiftUIView.swift */,
+				F3F4C1C629FB460300955BB4 /* Preview Content */,
+			);
+			path = TransLoc;
+			sourceTree = "<group>";
+		};
+		F3F4C1C629FB460300955BB4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F3F4C1C729FB460300955BB4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3F4C1BC29FB460300955BB4 /* TransLoc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3F4C1CB29FB460300955BB4 /* Build configuration list for PBXNativeTarget "TransLoc" */;
+			buildPhases = (
+				F3F4C1B929FB460300955BB4 /* Sources */,
+				F3F4C1BA29FB460300955BB4 /* Frameworks */,
+				F3F4C1BB29FB460300955BB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TransLoc;
+			productName = TransLoc;
+			productReference = F3F4C1BD29FB460300955BB4 /* TransLoc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3F4C1B529FB460300955BB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F3F4C1BC29FB460300955BB4 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = F3F4C1B829FB460300955BB4 /* Build configuration list for PBXProject "TransLoc" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3F4C1B429FB460300955BB4;
+			productRefGroup = F3F4C1BE29FB460300955BB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3F4C1BC29FB460300955BB4 /* TransLoc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3F4C1BB29FB460300955BB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F4C1C829FB460300955BB4 /* Preview Assets.xcassets in Resources */,
+				F3F4C1C529FB460300955BB4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3F4C1B929FB460300955BB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F4C1D129FB467A00955BB4 /* TelaHomeMotorista.swift in Sources */,
+				F3F4C1D329FB46D800955BB4 /* TelaCriarConta.swift in Sources */,
+				F16668072A0AFC0A00D040F0 /* TelaNotificacoes.swift in Sources */,
+				F1ADB0632A0DB1FC00C711DD /* FinalizarView.swift in Sources */,
+				F16668092A0B110100D040F0 /* ApiCallNotificacoes.swift in Sources */,
+				F33D361B2A09B9650044797A /* ApiCallPassageiro.swift in Sources */,
+				F33D361D2A09B9800044797A /* ApiCallGrupo.swift in Sources */,
+				F3FCF7AD29FD871000870C0A /* SwiftUIView.swift in Sources */,
+				F3F4C1C329FB460300955BB4 /* ContentView.swift in Sources */,
+				F33D36212A09C2C80044797A /* GerenciamentoView.swift in Sources */,
+				F122E2A52A09D2DC00F442D3 /* TelaHomeCliente.swift in Sources */,
+				F3F4C1CF29FB462600955BB4 /* ApiCallUsuario.swift in Sources */,
+				F1ADB0652A0DB2FA00C711DD /* PartidaView.swift in Sources */,
+				F33D361F2A09BA600044797A /* GerenciamentoClientes.swift in Sources */,
+				F3F4C1C129FB460300955BB4 /* TransLocApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F3F4C1C929FB460300955BB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3F4C1CA29FB460300955BB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3F4C1CC29FB460300955BB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TransLoc/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.danielbenevides.TransLoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3F4C1CD29FB460300955BB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TransLoc/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.danielbenevides.TransLoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3F4C1B829FB460300955BB4 /* Build configuration list for PBXProject "TransLoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F4C1C929FB460300955BB4 /* Debug */,
+				F3F4C1CA29FB460300955BB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3F4C1CB29FB460300955BB4 /* Build configuration list for PBXNativeTarget "TransLoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F4C1CC29FB460300955BB4 /* Debug */,
+				F3F4C1CD29FB460300955BB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3F4C1B529FB460300955BB4 /* Project object */;
+}
